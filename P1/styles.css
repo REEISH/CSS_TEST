@@ -1,0 +1,278 @@
+.flex-container {
+    display: flex;
+    background-color: red;
+    height: 950px;
+    flex-direction: column;
+}
+
+.flex-1 {
+    display: flex;
+    width: 100%;
+    background-color: #283051;
+    flex-direction: row;
+    height: 80px;
+}
+
+.flex-2 {
+    display: flex;
+    width: 100%;
+    background-color: #283051;
+    flex-direction: row;
+    height: 220px;
+    gap: 20px;
+}
+
+.flex-21 {
+    display: flex;
+    width: 50%;
+    height: 220px;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.flex-211 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 30px;
+    height: 160px;
+}
+
+.flex-2111 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    height: 30%;
+}
+
+.flex-2112 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    height: 50%;
+}
+
+.flex-2113 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    height: 20%;
+}
+
+.flex-21113 {
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 8px;
+    background-color: #0096FF;
+}
+
+.flex-22 {
+    display: flex;
+    /* background-color: green; */
+    color: white;
+    width: 50%;
+    height: 220px;
+}
+
+.flex-221 {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 50%;
+    margin-bottom: 5%;
+    height: 90%;
+    text-align: center;
+    width: 40%;
+    background-color: rgb(137, 139, 142);
+}
+
+.flex-3 {
+    display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 280px;
+    flex-direction: column;
+}
+
+.flex-31 {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    justify-content: center;
+    color: #000000;
+}
+
+.flex-32 {
+    display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 170px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flex-321,
+.flex-322,
+.flex-323,
+.flex-324 {
+    display: flex;
+    width: 16%;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: red;
+}
+
+.flex-4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #9d9d9d;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-41 {
+    display: flex;
+    width: 80%;
+    color: black;
+    font-size: 40px;
+    justify-content: center;
+    font-style: italic;
+}
+
+.flex-42 {
+    display: flex;
+    width: 80%;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: right;
+}
+
+.flex-5 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 220px;
+}
+
+.flex-51 {
+    display: flex;
+    width: 75%;
+    height: 60%;
+    background-color: #0096FF;
+    border-radius: 8px;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-511 {
+    display: flex;
+    width: 75%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.flex-512 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 25%;
+    height: 80%;
+}
+
+.flex-5121 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 25%;
+    height: 40%;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    font-weight: 550;
+}
+
+
+.flex-6 {
+    display: flex;
+    width: 100%;
+    background-color: #283051;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-61 {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.flex-11 {
+    display: flex;
+    color: white;
+    width: 50%;
+    height: 50px;
+    margin-right: 150px;
+}
+
+.flex-12 {
+    display: flex;
+    color: white;
+    width: 50%;
+    height: 50px;
+    gap: 20px;
+}
+
+.flex-111 {
+    display: flex;
+    color: white;
+    width: 50%;
+    font-weight: 700;
+    font-size: 20px;
+    height: 50px;
+    justify-content: right;
+}
+
+.flex-121 {
+    display: flex;
+    color: white;
+    width: 200px;
+    font-size: 15px;
+    height: 50px;
+    justify-content: right;
+}
+
+.flex-122 {
+    display: flex;
+    color: white;
+    width: 50%;
+    font-size: 15px;
+    height: 50px;
+    justify-content: center;
+}
